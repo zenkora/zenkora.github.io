@@ -14,12 +14,12 @@ function country_check() {
         fetch("https://api.country.is")
             .then(res => res.json())
             .then(data => {
-        if (blockedCountries.includes(data.country) && window.location.href != "/special/blocked-country.html") {
+        if (blockedCountries.includes(data.country) && !window.location.href.includes("/special/blocked-country.html")) {
             window.location.href = "/special/blocked-country.html";
         }});
     } catch (err) {
         console.error("Geolocation failed:", err);
-        if (window.location.href != "/special/blocked-country.html"){
+        if (!window.location.href.includes("/special/blocked-country.html")){
             window.location.href = "/special/blocked-country.html";
         }
     }
