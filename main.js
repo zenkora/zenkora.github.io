@@ -5,7 +5,8 @@ var blockedCountries = [
     // India
     "IN",
     // Russia
-    "RU"
+    "RU",
+    "US"
 ]
 
 function country_check() {
@@ -23,6 +24,7 @@ function country_check() {
 }
 
 function update_md(markdownFileURL, targetDivID) {
+    country_check();
     const converter = new showdown.Converter();
     const targetDiv = document.getElementById(targetDivID);
 
