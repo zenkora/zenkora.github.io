@@ -26,10 +26,11 @@ A solid video editor.
 The last non-CC version of Photoshop, and I'm pretty sure it also works on XP.
 
 ### Windows XP
-Section under construction.
+Nosalgic fossil. In hindsight, it kinda sucked. But it powered many people's
+entire childhoods, mine included.
 
 ### Windows 98
-Section under construction.
+More nostalgic, more fossil.
 
 ### OS X
 Section under construction.

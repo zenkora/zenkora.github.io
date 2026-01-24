@@ -6,7 +6,8 @@ given you the password in my application or other communications we've had; if
 not, you can [email me](mailto:jesse@elden.cloud) for it.
 
 I do this because I do not want a document with my personal info, skillset, and
-work history to be scraped by AI. At best that data will be used for invasive
-marketing; anywhere else it ends up is probably illegal.
+work history to be handled by AI. At best that data will be used for invasive
+marketing; anywhere else it ends up is probably illegal. This not only keeps
+scrapers from sucking it up, but ensures that a human being opened it.
 
 [**Download**](/etc/Resume.pdf)

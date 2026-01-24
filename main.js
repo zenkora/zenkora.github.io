@@ -5,8 +5,7 @@ var blockedCountries = [
     // India
     "IN",
     // Russia
-    "RU",
-    "US"
+    "RU"
 ]
 
 function country_check() {

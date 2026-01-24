@@ -1,11 +1,12 @@
 ## <u>Elden Cloud - Main Page</u>
-The personal internet hidey-hole of a 30-year-old Okie.
+The personal internet hidey-hole of a 30-year-old dude with dusty dreams.
 
-Personal sites and blogs are all but dead, yet this one persists in 2025. It's
-moved across domains, servers, and states, been accidentally destroyed and
-remade a couple times, but I still hold onto the delusion that people are
-actually clicking a link somewhere, ending up on my site, and reading my drivel
-or using something I made. Intentionally even. Crazy thought, isn't it?
+Personal sites and blogs are all but dead, yet this one persists. It's moved
+across domains, servers, and states, been accidentally destroyed and remade a
+couple times, but I still hold onto the delusion that people are actually
+clicking a link somewhere, ending up on my site, and reading my drivel or using
+something I made. Intentionally even. Crazy thought, isn't it? Google Analytics
+says I have *some* people hitting my site, at least.
 
 ### About Me
 I'm Jesse (aka\* zenkora). I like guns, fishing and (obviously) tech, and I'm
