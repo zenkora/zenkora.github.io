@@ -8,7 +8,8 @@
 [Home](/index.html) |
 [Guides](/guides/index-guides.html) |
 [Projects](/projects.html) |
-[Contact](/contact.html) </br>
+[Contact](/contact.html) |
+[Helpdesk](/helpdesk.html)</br>
 **Journals:** </br>
 [Technology](/journal/tech/index-tech.html) |
 [Personal](/journal/personal/index-personal.html) |
