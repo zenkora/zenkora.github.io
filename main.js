@@ -1,5 +1,4 @@
 var blockedCountries = [
-    //"US",
     // Israel
     "IL",
     // India

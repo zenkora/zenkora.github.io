@@ -8,11 +8,17 @@ the job.
 
 Clarification and quick advice pertaining to my tech-related writings is free.
 
+Payment accepted via CashApp, PayPal, or Square invoice.
+
 ### Skills
 - Windows troubleshooting
 - Mac troubleshooting (M-series)
 - Linux expertise (15-year user, desktop and server)
 - some BSD knowledge
+
+### Service Area
+Based in north Texas, but hypothetically anywhere. If outside of the US, PayPal
+will be the preferred payment option as it will handle currency conversion.
 
 ### Active Hours
 Due to having a job I am not available during standard business hours. These
