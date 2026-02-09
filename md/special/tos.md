@@ -8,5 +8,6 @@ page, or email me, for general questions, feedback, or complaints.
 - Do not use this site's contents to train AI without written permission.
 CC-BY-SA requires attribution and AI models don't usually give credit for their
 training data.
-- Do not use this site's contents to break the law. Anything you do with the
-information or files provided here is on you.
+- Do not use this site's contents to break the law, or blame me if you break
+something. Anything you do with the information or files provided here is
+completely, entirely, absolutely, wholly, inarguably, 100% on you.

@@ -13,12 +13,12 @@ Showdown.js is released under the MIT License. I can't find the dev's name to
 credit them.
 
 ### Fonts
-The Red Hat Display font has an obvious creator and is free under the SIL
-International License.
+Red Hat Display has an obvious creator, and is free to use and redistribute
+under the SIL International License.
 
-The Monaco font is owned by Apple. If any of their legal ninjas are reading
-this, I'll change fonts if asked to, but otherwise I hope y'all are cool with
-my use of it. I did obtain this copy it from of my Mac at least.
+Monaco is owned by Apple. If any of the fruit company's legal ninjas are
+reading this, I'll switch to another font if asked to. But otherwise, I hope
+y'all are cool with this. I did obtain the file from my Mac at least.
 
 ### Site Disclaimer
 This site is not affiliated with FromSoft, nor is it licensed or endorsed by
