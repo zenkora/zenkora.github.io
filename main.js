@@ -5,7 +5,7 @@ var blockedCountries = [
     "IL"
 ]
 
-async function countryBlackListCheck() {
+async function country_check() {
     try {
         const res = await fetch("https://ipapi.co/json/");
         const data = await res.json();
