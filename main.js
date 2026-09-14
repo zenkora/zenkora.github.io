@@ -1,10 +1,38 @@
+var blockedCountries = [
+    // India
+    "IN",
+    // Israel
+    "IL"
+]
+
+async function countryBlackListCheck() {
+    try {
+        const res = await fetch("https://ipapi.co/json/");
+        const data = await res.json();
+        console.log("User country:", data.country_name); // for debugging
+
+        if (blockedCountries.includes(data.country_code) &&
+            window.location.href != "/special/blocked-country.html") {
+            window.location.href = "/special/blocked-country.html";
+        }
+    } catch (err) {
+        console.error("Geolocation failed:", err);
+        if (window.location.href != "/special/blocked-country.html") {
+            window.location.href = "/special/blocked-country.html";
+        }
+    }
+}
+
 function update_md(markdownFileURL, targetDivID) {
+    countryBlackListCheck();
+
     const converter = new showdown.Converter();
     converter.setOption('tables', true);
     converter.setOption('emoji', true);
     converter.setOption('underline', true);
     converter.setOption('strikethrough', true);
     converter.setOption('ghMentions', true);
+
     const targetDiv = document.getElementById(targetDivID);
 
     fetch(markdownFileURL)
