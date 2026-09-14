@@ -15,5 +15,3 @@ autistically strong opinions about those and other shit.
 
 Maybe you will find something here useful or entertaining.
 </br><sup>\*I am known by my handle to maybe five people lmao.</sup>
-
-### Message Box

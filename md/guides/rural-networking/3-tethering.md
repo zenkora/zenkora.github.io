@@ -96,5 +96,3 @@ XDA might be able to help you with that.
 
 [Previous: DIY Router](/guides/rural-networking/2-diy-router.html)<br/>
 [Next: Use a VPN](/guides/rural-networking/4-tethering-vpn.html)
-
-### Comments

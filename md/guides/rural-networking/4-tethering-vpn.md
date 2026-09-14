@@ -76,5 +76,3 @@ Also, this isn't a Walmart router. You get updates and logfiles, and should
 shell back in periodically to check on things and update.
 
 [Previous: Tethering Considerations](/guides/rural-networking/3-tethering.html)
-
-### Comments

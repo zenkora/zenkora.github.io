@@ -44,5 +44,3 @@ your shit and will use the software equivalent of a battering ram to do it. If
 you don't, because you're a dissident journalist or just someone who values
 what shreds of privacy remain in this world, use literally any other provider.
 I have never had anything like this happen to me before.
-
-### Comments

@@ -15,5 +15,3 @@ articles whenever with a `git pull`. Or scrape it I guess.
 - India
 
 This list is subject to growth.
-
-### Comments
