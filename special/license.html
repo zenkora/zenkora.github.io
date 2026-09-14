@@ -1,5 +1,5 @@
 <head>
-    <title>Elden Cloud - Resume</title>
+    <title>Elden Cloud - Site Licenses</title>
     <link rel="stylesheet" href="/main.css"/>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -13,11 +13,21 @@
     <script src="/main.js"></script>
     <script>
     window.onload = function() {
+        country_check();
         update_md('/md/menu.md', 'menu');
-        update_md('/md/resume.md', 'main');
+        update_md('/md/special/license.md', 'main');
     }
     </script>
     <meta property="fb:admins" content="100082494532563"/>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2N829TNV5J"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2N829TNV5J');
+    </script>
 </head>
 
 <body>

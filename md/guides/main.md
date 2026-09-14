@@ -1,7 +1,8 @@
-## Elden Cloud - Guides
-This is where I will put guides for random bullshit I've had to scour the
-internet, trudge through old forums and cancerous SEO blogs, and experiment to
-figure out. I hope to spare someone else from that.
+## Elden Guides - Main
+This is where I will put guides for random tech bullshit I've had to scour the
+internet, aggregate a ton of wiki pages and SEO gobbledygook, and experiment to
+figure out. I hope to spare others from that headache, and provide some
+practical documentation for uncommon topics.
 
 ### Rural Home Networking
 Staying online in the sticks is a pain in the ass. Follow these guides to make

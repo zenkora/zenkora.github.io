@@ -6,3 +6,4 @@ Disallow: /md/
 Disallow: /img/
 Disallow: /font/
 Disallow: /etc/
+Disallow: /special/

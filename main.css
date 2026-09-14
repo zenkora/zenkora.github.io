@@ -1,21 +1,12 @@
-/*@import url('https://fonts.googleapis.com/css?family=Ubuntu');*/
-
-
 @font-face {
-    font-family: "Helvetica Neue Regular";
-    src: url('font/helveticaneue.ttf');
+    font-family: "Red Hat Display";
+    src: url('font/RedHatDisplay.ttf');
 }
 
 
 @font-face {
-    font-family: "Helvetica Neue Bold";
-    src: url('font/helveticaneue-bold.ttf');
-}
-
-
-@font-face {
-    font-family: "Helvetica Neue Italic";
-    src: url('font/helveticaneue-italic.ttf');
+    font-family: "Red Hat Display Italic";
+    src: url('font/RedHatDisplay-Italic.ttf');
 }
 
 
@@ -33,7 +24,7 @@
     margin: auto;
     padding: 16px;
     border-radius: 12px;
-    font-family: "Helvetica Neue Regular", sans-serif;
+    font-family: "Red Hat Display Regular", sans-serif;
     font-size: 18px;
 }
 
@@ -90,7 +81,7 @@ a {
 
 
 button {
-    font-family: "Helvetica Neue Regular", sans-serif;
+    font-family: "Red Hat Display Regular", sans-serif;
     font-size: 16px;
     background-color: #007aff;
     color: #ffffff;
@@ -122,12 +113,14 @@ pre {
     padding: 5px;
 }
 
+
 table {
     width: 100%;
     text-align:center;
     color: #ffffff;
     border-color: #ffffff;
 }
+
 
 th, td {
   border-style:solid;

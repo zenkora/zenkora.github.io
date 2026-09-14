@@ -1,6 +1,4 @@
 ## Elden Guides - Tethering Considerations
-*Last updated 2025.01.21*
-
 So you got yourself a tethering-friendly carrier. Or you didn't, and will do it
 anyway. Regardless this isn't standard home broadband. You have more to do if
 you want to have a good time.
@@ -15,9 +13,18 @@ looping through the internet forever. Every time a packet goes through a router
 zero the packet is dropped.
 
 To beat this, you will want to make sure all of your traffic has the same TTL
-going out, and this can be done by mangling the packets:
+going out, and this can be done by mangling the packets. Add this table to the
+end of your iptables rules:
 ```
-iptables -t mangle -A POSTROUTING -s 10.0.0.0/24 -o eth1 -j TTL --ttl-set 65
+*mangle
+:INPUT ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+:MINIUPNPD - [0:0]
+
+-A POSTROUTING -o eth1 -j TTL --ttl-set 65
+
+COMMIT
 ```
 Replace the subnet with the one you use and the interface with your phone. And
 then, so your router does the same, create the file `/stc/sysctl.d/11-ttl.conf`
@@ -25,10 +32,10 @@ with this line:
 ```
 net.ipv4.ip_default_ttl=65
 ```
-Note that TTL manipulation alone will not work with heavier-handed, mainstream
-carriers that use deep packet inspection (DPI). A VPN might help in this case
-by encrypting your traffic, but they could just throttle that connection. This
-is why you want a small one that has fewer fucks to give.
+Note that TTL manipulation alone will not work with heavy-handed carriers that
+use deep packet inspection (DPI). A VPN might help in this case by encrypting
+your traffic, but they could just throttle that connection. This is why you
+want an MVNO that has fewer fucks to give.
 
 ### Data Usage
 If you did your due diligence and made sure your tethering privileges are
@@ -41,23 +48,28 @@ smartphones, consoles, and PCs constantly pulling updates and syncing with
 cloud services. And their network engineers aren't stupid, they **know** people
 will circumvent their limitations for unlearned scrubs, and they don't give a
 shit as long as you don't cause those scrubs problems. They don't want to burn
-their bonuses or free time investing in DPI to spite the other 1% of the
-population who knows what a TTL value is (which now includes you!).
+their bonuses or weekends to spite the other 1% of the population who knows
+what a TTL value is (which now includes you!).
 
 ### Be Nice to the Network
 Regardless of your plan or how technically-okay your usage is, you want to be
-nice about it. If you're pulling down 10TB a month it might invite questions as
-to just what in the hell you're doing.
+nice about it. Don't be the one who abuses a good deal too hard and ruins it
+for everyone else.
 
 ##### Schedule Your Downloads
 You ideally want any bulky transfers to happen when demand is low. Set your
 Winblows updates, download managers, and torrent clients to download after
-midnight. Keep an eye on your consoles, too.
+midnight. Keep an eye on your consoles, too. You will probably get drastically
+higher speeds at this time anyway, especially in rural areas. Even if you do
+rack up an absurd total at the end of the month, most of it happening when the
+airwaves are clear is obviously considerate and might cover your ass.
 
 ##### Use a VPN
-Beyond hiding your activities, this ensures that your traffic has the same
-endpoints all of the time. That is much easier for them to optimize around.
-These are covered next.
+Beyond hiding your activities from Big Brother and your carrier's traffic
+shaping, this ensures that your traffic has the same route through your
+carrier's network all of the time. That is much easier for them to optimize
+around and passes off further routing to your VPN provider. These are covered
+next.
 
 ### If You Have Limited/No Tethering
 You might not be lucky. You might be limited by network compatibility, and/or
@@ -71,16 +83,16 @@ knows. No VPN, they see a phone hitting Microsoft and Nintendo game servers and
 other shit it never should, and your carrier immediately knows. It's not even a
 matter of avoiding throttling, or a data cap, you are just breaking your TOS.
 
-You also need to to watch your data usage like a hawk. No constant streaming on
+You need to to watch your data usage like a hawk. No constant streaming on
 multiple devices, no large downloads, nothing but standard browsing really. A
 plan with no tethering comes with the obvious expectation that you're *only*
-accessing their network from your phone. If you generate 300GB of traffic in a
-month, you'e a heavy user. If you rack up an entire terabyte, you're liable to
-get kicked off.
+accessing their network from your phone. If you generate 200GB of traffic in a
+month, you'e a very heavy user and probably watch a ton of YouTube. If you rack
+up an entire terabyte, that might invite some questions about your use.
 
 To go this route you will probably want to unlock your phone's bootloader and
 flash a custom ROM, so the carrier can't just disable the tethering feature.
-XDA can help you with that.
+XDA might be able to help you with that.
 
 [Previous: DIY Router](/guides/rural-networking/2-diy-router.html)<br/>
 [Next: Use a VPN](/guides/rural-networking/4-tethering-vpn.html)

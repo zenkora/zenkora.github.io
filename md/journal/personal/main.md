@@ -1,4 +1,4 @@
 ## Elden Journal - Personal
-The clothesline where I air out my dirty laundry and apolitical ramblings.
+My reflections, observations, and other apolitical ramblings go here.
 
-[(2024.11.03) My Schizoid Crackhead-in-law](/journal/personal/20241103-rex.html)
+[(2026.01.24) Been Away for a While](/journal/personal/20260124-been-away.html) </br>

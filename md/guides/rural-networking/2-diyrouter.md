@@ -1,6 +1,4 @@
 ## Elden Guides - DIY Router
-*Last updated 2025.06.19*
-
 So you got yourself a plan for your phone and a plan for your use. But now you
 have a new problem: no consumer router supports this shit. OpenWRT might; *if*
 you're lucky enough that your Walmart special router is supported, and *if* it
