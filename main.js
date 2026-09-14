@@ -24,8 +24,6 @@ async function country_check() {
 }
 
 function update_md(markdownFileURL, targetDivID) {
-    countryBlackListCheck();
-
     const converter = new showdown.Converter();
     converter.setOption('tables', true);
     converter.setOption('emoji', true);
