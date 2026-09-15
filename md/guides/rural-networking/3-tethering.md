@@ -1,4 +1,4 @@
-## Elden Guides - Tethering Considerations
+## Zenkora's Dark Moon - Tethering Considerations
 So you got yourself a tethering-friendly carrier. Or you didn't, and will do it
 anyway. Regardless this isn't standard home broadband. You have more to do if
 you want to have a good time.

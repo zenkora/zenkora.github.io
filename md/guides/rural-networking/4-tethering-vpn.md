@@ -1,4 +1,4 @@
-## Elden Guides - Use a VPN
+## Zenkora's Dark Moon - Use a VPN
 If you're using any cellular connection, whether your usage is technically
 allowed or not, you should get a VPN. Cell carriers have always been the worst
 enemies of net neutrality, and short of paying them piles of money, that's

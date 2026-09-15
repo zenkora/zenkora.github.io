@@ -1,4 +1,4 @@
-## Elden Journal - (2025.06.24) Bullshit Jobs, Bullshit Software
+## Zenkora's Dark Moon - (2025.06.24) Bullshit Jobs, Bullshit Software
 David Graeber's "Bullshit Jobs" theory, from his 2018 book of the same name,
 posits that most of the jobs we make for ourselves are fake and psychologically
 harmful in a society that ties one's self-worth to work output.

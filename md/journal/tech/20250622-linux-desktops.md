@@ -1,4 +1,4 @@
-## Elden Journal - (2025.06.22) Best and Worst Linux Desktop Environments
+## Zenkora's Dark Moon - (2025.06.22) Best and Worst Linux Desktop Environments
 In 2010, when I started using Linux, it had a *fuck ton* of options for desktop
 environments and window managers. There were a million offshoot distros for
 every conceivable setup. And most of them sucked balls and/or had no reason to

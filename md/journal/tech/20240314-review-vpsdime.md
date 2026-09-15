@@ -1,4 +1,4 @@
-## Elden Journal - (2024.03.14) Review: VPSDime
+## Zenkora's Dark Moon - (2024.03.14) Review: VPSDime
 
 ### The Beginning
 About four months ago, I decided to start up a Windows VPS with these guys on

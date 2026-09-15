@@ -1,4 +1,4 @@
-## Elden Journal - Technology
+## Zenkora's Dark Moon - Technology
 This is where I rant about technology that I use, love, hate, find cool as
 hell, et cetera.
 
