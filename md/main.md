@@ -1,5 +1,5 @@
 ## Zenkora's Dark Moon - Main Page
-The personal internet corner of a 30-year-old dude with dusty dreams.
+The personal internet corner of a 31-year-old dude with dusty dreams.
 
 Personal websites and blogs are all but dead, yet this one persists. It's moved
 across domains, servers, and states, been accidentally destroyed and remade a
