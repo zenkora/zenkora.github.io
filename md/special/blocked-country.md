@@ -1,4 +1,4 @@
-## Elden Cloud - Blocked Country
+## Zenkora's Dark Moon - Blocked Country
 If you've been redirected to this page, you're visiting from a country that I
 believe to be problematic. This doesn't mean I have a problem with you, or that
 I hate your people, I just believe that the legitimate, normal visitors from

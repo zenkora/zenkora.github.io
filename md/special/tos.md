@@ -1,4 +1,4 @@
-## Elden Cloud - Terms of Use
+## Zenkora's Dark Moon - Terms of Use
 - This site does not contain any graphically violent or sexually explicit
 content, but some parts may still be considered inappropriate or
 not-safe-for-work by some people and/or in some settings. I am not responsible
