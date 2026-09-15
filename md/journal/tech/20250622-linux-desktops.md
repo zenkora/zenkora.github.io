@@ -25,6 +25,8 @@ go with it so everything is consistent.
 Valve ships it on Steam Decks for a reason. Or probably dozens. Whatever, the
 point is that KDE is great and I stan for it here.
 
+![kde](/img/linux-desktops/kde.png)
+
 ### Sway/i3
 **Pros:** extremely lightweight, minimalist, Wayland support (sway)</br>
 **Cons:** not user-friendly at first </br>
@@ -46,6 +48,8 @@ If you'd like a simpler manual and included batteries, you're welcome to clone
 need to get going in about thirty seconds post-install and then customize it
 further yourself.
 
+![sway](/img/linux-desktops/sway.png)
+
 ### MATE
 **Pros:** lightweight, user-friendly, supports Wayland </br>
 **Cons:** feels a little dated </br>
@@ -56,6 +60,8 @@ KDE or you want to maximize available resources on a more powerful machine. Or
 maybe you just prefer GTK. It's basically Gnome 2 kept fresh in the modern age,
 and it supports Wayland.
 
+![mate](/img/linux-desktops/mate.png)
+
 ### XFCE
 **Pros:** lightweight, themeable, configurable </br>
 **Cons:** 2003 looking shit </br>
@@ -64,6 +70,8 @@ and it supports Wayland.
 If you have a shit PC, XFCE will be relatively nice to it. You can get it to
 look decent
 with a little effort and it won't eat all of your RAM.
+
+![xfce](/img/linux-desktops/xfce.png)
 
 ### LXQt
 **Pros:** same as LXDE below </br>
@@ -74,6 +82,8 @@ Imagine KDE, but its devs are all stuck with Intel Atom netbooks from 2010. You
 get LXQt. It's like a slightly nicer cousin of LXDE, and as made obvious by the
 name, it uses Qt instead of GTK.
 
+![lxqt](/img/linux-desktops/lxqt.png)
+
 ### LXDE
 **Pros:** lightweight, minimalist </br>
 **Cons:** Y2K looking shit </br>
@@ -83,6 +93,8 @@ If you have a *really* shit PC, LXDE might be your last option before resorting
 to text-based programs on a TTY. You *can* theme it, kinda. But it looks like
 shit without tons of effort and trial-and-error, and Openbox is really bare
 bones shit.
+
+![lxde](/img/linux-desktops/lxde.png)
 
 ### Gnome
 **Pros:** supports Wayland I guess </br>
@@ -98,3 +110,5 @@ Accidentally closed your Steam or Discord window? Well, the neckbeard devs
 don't believe in tray icons, so you can go fuck yourself. Oh, but here's a
 stupid ass "Boxes" app and the KVM dependencies with it, because you *totally*
 weren't gonna use VBox or VMware, were you?
+
+![gnome](/img/linux-desktops/gnome.png)
