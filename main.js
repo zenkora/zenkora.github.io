@@ -5,7 +5,7 @@ var blockedCountries = [
     "IL"
 ]
 
-async function country_check() {
+/*async function country_check() {
     try {
         const res = await fetch("https://ipapi.co/json/");
         const data = await res.json();
@@ -21,6 +21,11 @@ async function country_check() {
             window.location.href = "/special/blocked-country.html";
         }
     }
+}*/
+
+// stub
+async function country_check() {
+    return;
 }
 
 function update_md(markdownFileURL, targetDivID) {
